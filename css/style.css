@@ -1,0 +1,10 @@
+.mygradient{
+    border-bottom-left-radius: 500px 100px;
+    border-bottom-right-radius: 500px 100px;
+}
+.welcome-btn{
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
