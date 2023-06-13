@@ -8,3 +8,10 @@
     width: 150px;
     border: none;
 }
+.small-img{
+    height: 500px;
+    width: 500px;
+    border-bottom-right-radius: 500px 50px;
+    float: right;
+
+}
