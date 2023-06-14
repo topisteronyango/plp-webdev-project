@@ -30,3 +30,26 @@
 .cal{
     margin-top: -120px;
 }
+
+.explain-elib{
+    flex-wrap: wrap;
+}
+.part1{
+    color:#2F327D;
+}
+.part2{
+    color:#4C30F8;
+}
+/* .facilitator{
+    background-image: url(/images/facilitator.png) no-repeat;
+} */
+
+.facilitator{
+    margin-top: 95px;
+}
+
+.btn-fac{
+    margin-top: 30px;
+    margin-left:150px;
+    border-radius: 50px;
+}
