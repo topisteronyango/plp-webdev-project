@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try JS</title>
+</head>
+<body>
+    <h1>Hello</h1>
+    <p id="demo"></p>
+    <p id="person"></p>
+    <p id="person2"></p>
+    <p id="person3"></p>
+
+    <script>
+        let header = "Hello world!"
+        let html1 = `<h1>${header}</h1>`;
+        const person = {
+            firstName: 'John',
+            lastName :'Doe',
+            age:35,
+            fullDetails: function(){
+                // let fullname = `${this.firstName}`;
+                return `${this.firstName} + ${this.lastName}`;
+            }
+            };
+        // let text = ""
+        // let html2 = `<ul><li>${text}</li>`;
+        // for (const x of person){
+        //     html2+=text
+        // }
+        
+        
+
+        document.getElementById("demo").innerHTML = html1;
+        document.getElementById("person").innerHTML = person.firstName;
+        document.getElementById("person1").innerHTML = person.lastName;
+        document.getElementById("person2").innerHTML = person.firstName;
+
+    </script>
+    
+</body>
+</html>
